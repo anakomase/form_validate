@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario de Validação</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+	<center>
+	<h1>Formulário Validate</h1>
+	</center>
+<form id="formulario">
+	<div class="container">
+  <div class="form-group row mt-5">
+	    <label for="email" class="col-sm-1 col-form-label">Email</label>
+	    <div class="col-sm-6">
+	      <input type="email" class="form-control" id="email" placeholder="Email" required>
+	    </div>
+	  </div>
+	  <div class="form-group row">
+	    <label for="nome" class="col-sm-1 col-form-label">Nome</label>
+	    <div class="col-sm-6 pb-2">
+	      <input type="text" class="form-control" id="nome" placeholder="nome" required minlength="5">
+	  </div>
+	  <div class="form-group row">
+	    <label for="telefone" class="col-sm-1 col-form-label ml-2">telefone</label>
+	    <div class="col-sm-3 pb-2">
+	      <input type="text" class="form-control" id="telefone" placeholder="telefone" required>
+	  </div>
+	  <div class="form-group row">
+	  	<label for="CPF" class="col-sm-1 col-form-label ml-4">CPF</label>
+	    <div class="col-sm-3  pb-2">
+	      <input type="text" class="form-control" id="CPF" placeholder="CPF" required>
+	  </div>
+	     <div class="form-group row">
+	    <label for="datanascimento" class="col-sm-2 col-form-label">Data de Nascimento</label>
+	    <div class="col-sm-3 pb-2 ml-0">
+	      <input type="text" class="form-control" id="datanascimento" placeholder="data de nascimento" required>
+	    </div>
+	     <div class="form-group row">
+	    <label for="Endereço" class="col-sm-1 col-form-label ml-4">Endereço</label>
+	    <div class="col-sm-4 pb-2">
+	      <input type="text" class="form-control" id="Endereço" placeholder="Endereço" required>
+	    </div>
+	    <div class="form-group row">
+	    	<label for="CEP" class="col-sm-1 col-form-label ml-5">CEP</label>
+	    	<div class="col-sm-3  pb-2">
+	      	<input type="text" class="form-control" id="CEP" placeholder="CEP" required>
+	    </div>
+	    <div class="form-group row">
+	    	<label for="estado" class="col-sm-1 col-form-label  ml-5">Estado</label>
+	    	<div class="col-sm-3 pb-2">
+	      	<input type="text" class="form-control" id="estado" placeholder="estado" required>
+	    </div>
+	    <div class="form-group row">
+	    	<label for="cidade" class="col-sm-2 col-form-label ml-5">Cidade</label>
+	    	<div class="col-sm-5 pb-2 ">
+	      	<input type="text" class="form-control" id="cidade" placeholder="cidade" required>
+	    </div>
+	    <div class="form-group row">
+   			<div class="form-check ml-5">
+		      <input class="form-check-input mt-2" type="checkbox" id="gridCheck" required>
+		      <label class="form-check-label" for="gridCheck">
+		        concordo com o termo e condições
+      			</label>
+    		</div>
+  		</div>
+  		<div class="form-group row">
+    		<div class="col-sm-2 mt-5">
+      			<button type="submit" class="btn btn-primary">Cadastrar</button>
+    		</div>
+  		</div>
+  </div>
+</div>
+
+</form>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+<script src="script.js" type="text/javascript"></script>
+
+
+
+</body>
+</html>
